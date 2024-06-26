@@ -1,1 +1,82 @@
 proyecto web
+1. Definición de la Problemática: 
+
+La gestión de automóviles es un proceso complejo que implica mantener un inventario actualizado, gestionar diferentes roles de usuarios y proporcionar una interfaz amigable para la interacción con los clientes. La falta de un sistema de gestión eficiente puede conducir a errores en el seguimiento de inventario, retrasos en el proceso de venta y una experiencia insatisfactoria para los usuarios finales. 
+
+2. Requerimientos Específicos: 
+
+Requisitos Generales: 
+
+- Autenticación de Usuarios: 
+
+  - Registro y autenticación de usuarios. 
+
+  - Recuperación de contraseñas. 
+
+Roles de Usuarios: 
+
+- Administrador: 
+
+  - Gestión completa del inventario de automóviles. 
+
+  - Administración de usuarios y roles. 
+
+ 
+
+ 
+
+ 
+
+- Cliente: 
+
+  - Visualización de automóviles disponibles. 
+
+  - Realización de consultas y compras. 
+
+ 
+
+Módulos de la Aplicación: 
+
+- Inicio: 
+
+  - Página principal con acceso a diferentes secciones y funcionalidades. 
+
+- Catálogo de Automóviles: 
+
+  - Visualización de automóviles disponibles con detalles y precios. 
+
+- Gestión de Ventas: 
+
+- Proceso de compra de automóviles para clientes registrados con  Whatssap(número), correoelectronico, pago inicial y pago por cuotas. 
+
+-Consultas al numero de Whatssap se puede consultar de los autos. 
+
+- Administración: 
+
+  - Herramientas de gestión de inventario, usuarios y roles. 
+
+-Acerca de 
+
+- Contactanos 
+
+ 
+
+ 
+
+3. Diseño de la Base de Datos: 
+
+Entidades y Relaciones: 
+
+- Usuarios: 
+
+  - Atributos: id, nombre, correo electrónico, contraseña, rol. 
+
+  - Relaciones: Un usuario puede tener varios pedidos. 
+
+- Producto Automóviles: 
+
+  - Atributos: id, marca, modelo, año, color, precio, imagen. 
+
+  - Relaciones: Un automóvil puede estar relacionado con múltiples pedidos. 
+
+ 
